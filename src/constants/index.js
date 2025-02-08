@@ -39,36 +39,36 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Skills",
+    url: "#skills",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Experience",
+    url: "#experience",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Bio",
+    url: "#bio",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Contact",
+    url: "#contact",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Services",
+    url: "#services",
+    onlyMobile: false,
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
