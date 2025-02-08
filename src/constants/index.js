@@ -33,7 +33,12 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  AbkLogo,
+  AllyLogo,
+  CiscoLogo,
+  RolfsonLogo,
+  WorkleteLogo,
+  ArchLogo,
 } from "../assets";
 
 export const navigation = [
@@ -75,7 +80,14 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  AbkLogo,
+  AllyLogo,
+  ArchLogo,
+  WorkleteLogo,
+  CiscoLogo,
+  RolfsonLogo,
+];
 
 export const brainwaveServices = [
   "Photo generating",

@@ -20,6 +20,12 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import AbkLogo from "./AbkLogo.jpg";
+import AllyLogo from "./AllyLogo.png";
+import ArchLogo from "./ArchLogo.png";
+import CiscoLogo from "./CiscoLogo.png";
+import RolfsonLogo from "./RolfsonLogo.png";
+import WorkleteLogo from "./WorkleteLogo.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -76,9 +82,13 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  AbkLogo,
+  AllyLogo,
+  ArchLogo,
   brainwave,
   check,
   check2,
+  CiscoLogo,
   loading1,
   brainwaveSymbol,
   brainwaveWhiteSymbol,
@@ -93,6 +103,7 @@ export {
   plusSquare,
   recording03,
   recording01,
+  RolfsonLogo,
   disc02,
   chromecast,
   sliders04,
@@ -144,4 +155,5 @@ export {
   instagram,
   telegram,
   twitter,
+  WorkleteLogo,
 };

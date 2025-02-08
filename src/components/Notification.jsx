@@ -34,7 +34,7 @@ const Notification = ({ className, title }) => {
               </li>
             ))}
           </ul>
-          <div className="body-2 text-n-1">Global teams!</div>
+          {/* <div className="body-2 text-n-1">Global teams!</div> */}
         </div>
       </div>
     </div>
