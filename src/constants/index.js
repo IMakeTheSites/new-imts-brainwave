@@ -229,38 +229,40 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
+export const services = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Front-end Development",
+    description:
+      "Designing and building the part of a website that users see and interact with",
+    price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Building elements of a website, such as buttons and forms, using components",
+      "Ensuring responsive layouts are functional and fast on most devices",
+      "Integrating APIs for data submission, connecting to databases, and more",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Full stack development",
+    description: "Building both the front end and back end of an application",
+    price: null,
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Design user interface and user interactions",
+      "Implement the structure, behavior, and animation of the application",
+      "Work with databases to store and retrieve data",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "AI Development",
+    description:
+      "Creating artificial intelligence systems that can learn and perform tasks",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Integrating an AI chatbot that can understand your queries",
+      "Personalized user recommendations based on data",
+      "Use programming languages, machine learning, and data science to build intelligent systems",
     ],
   },
 ];
