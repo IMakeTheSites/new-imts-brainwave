@@ -60,7 +60,7 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Contact",
+    title: "Contact (Soon)",
     url: "#contact",
   },
   {
