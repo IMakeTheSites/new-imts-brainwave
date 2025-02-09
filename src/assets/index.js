@@ -42,6 +42,11 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import react from "./collaboration/react.svg";
+import net from "./collaboration/NetLogo.svg";
+import next from "./collaboration/next.png";
+import node from "./collaboration/nodejs.svg";
+import wordpress from "./collaboration/wordpress.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -103,6 +108,7 @@ export {
   file02,
   searchMd,
   plusSquare,
+  react,
   recording03,
   recording01,
   RolfsonLogo,
@@ -119,6 +125,9 @@ export {
   discord,
   figma,
   framer,
+  net,
+  next,
+  node,
   notion,
   photoshop,
   protopie,
@@ -157,5 +166,6 @@ export {
   instagram,
   telegram,
   twitter,
+  wordpress,
   WorkleteLogo,
 };

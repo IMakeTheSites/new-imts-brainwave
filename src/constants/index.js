@@ -11,17 +11,12 @@ import {
   facebook,
   figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -40,6 +35,11 @@ import {
   WorkleteLogo,
   ArchLogo,
   HomeDLogo,
+  react,
+  next,
+  net,
+  node,
+  wordpress,
 } from "../assets";
 
 export const navigation = [
@@ -141,22 +141,32 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export const collabTextFront =
+  "Mark has several years of experience using HTML, CSS, and JavaScript, as well as JavaScript frameworks and libraries (such as React) to develop pixel-perfect, functional, customer-pleasing applications.";
 
+export const collabTextFull =
+  "Mark has been providing the backbone of applications by writing code to create and optimize API responses (with Node or C#) and managing databases for years. ";
+
+export const collabTextProgramming =
+  "Take advantage of Mark&apos;s expertise in additional programming languages such as Java, C, and Python.";
+
+export const collabTextNeed =
+  "Your team needs a developer with a wide skillset, years of education, and adaptabililty.";
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Front End Development",
+    text: collabTextFront,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Full Stack Development",
+    text: collabTextFull,
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Software Development",
+    text: collabTextProgramming,
   },
 ];
 
@@ -170,8 +180,8 @@ export const collabApps = [
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Wordpress",
+    icon: wordpress,
     width: 34,
     height: 36,
   },
@@ -191,29 +201,29 @@ export const collabApps = [
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Node.js",
+    icon: node,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: ".NET",
+    icon: net,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
+    title: "Next.js",
+    icon: next,
+    width: 34,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "React",
+    icon: react,
     width: 38,
     height: 32,
   },
