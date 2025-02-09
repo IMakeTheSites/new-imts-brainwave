@@ -39,6 +39,7 @@ import {
   RolfsonLogo,
   WorkleteLogo,
   ArchLogo,
+  HomeDLogo,
 } from "../assets";
 
 export const navigation = [
@@ -81,6 +82,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [
+  HomeDLogo,
   AbkLogo,
   AllyLogo,
   ArchLogo,
@@ -256,16 +258,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "The Home Depot",
+    text: "Worked to build the new Tiny Homes application. Created responsive and user-friendly interfaces using Next.js, Storybook, and Material UI. Wrote code to connect to APIs and display relevant data.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Ally Financial",
+    text: "Worked to add UI, UX, and accessibility features to the Bucket Savings, Debit Card, and Checking Account programs. Developed and tested React ensuring adherence to modern accessibility standards.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -273,16 +275,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Activision Blizzard King",
+    text: "Built the Rewards Platform for Candy Crush players to create profiles, check points and other rewards, and customize appearances. Optimized appearance and performance with code splitting and Material UI.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Worklete",
+    text: "Built, launched, and optimized a React-Native mobile application to enable worker training and injury reporting. Implemented several React-Native libraries to add features, including Google Maps and video streaming",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -290,16 +292,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Archetape",
+    text: "Developed and launched React and React-Native applications for Real Estate SAAS product. Enabled document sharing, messaging, Google Maps integration.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Rolfson Oil",
+    text: "Built React and React-Native applications for Ticket sharing and driver tracking. Enabled real-time communication, mobile printing, functional dashboards, and more.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

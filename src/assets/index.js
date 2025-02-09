@@ -26,6 +26,7 @@ import ArchLogo from "./ArchLogo.png";
 import CiscoLogo from "./CiscoLogo.png";
 import RolfsonLogo from "./RolfsonLogo.png";
 import WorkleteLogo from "./WorkleteLogo.png";
+import HomeDLogo from "./HomeDLogo.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -97,6 +98,7 @@ export {
   smallSphere,
   grid,
   yourlogo,
+  HomeDLogo,
   homeSmile,
   file02,
   searchMd,

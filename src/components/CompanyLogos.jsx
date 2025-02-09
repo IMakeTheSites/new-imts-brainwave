@@ -1,5 +1,4 @@
 import { companyLogos } from "../constants";
-// import AbkLogo from "../assets/AbkLogo.jpg"
 
 const CompanyLogos = ({ className }) => {
   return (
