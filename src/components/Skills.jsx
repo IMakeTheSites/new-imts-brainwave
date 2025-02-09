@@ -6,7 +6,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Skills = () => {
   return (
-    <Section crosses>
+    <Section crosses id="skills">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">I Make the Sites with My Skills</h2>

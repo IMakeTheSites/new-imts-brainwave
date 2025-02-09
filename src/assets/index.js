@@ -82,8 +82,11 @@ import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
+import email from "./socials/email.png";
 import facebook from "./socials/facebook.svg";
+import github from "./socials/github.png";
 import instagram from "./socials/instagram.svg";
+import linkedin from "./socials/linkedin.png";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
@@ -95,16 +98,19 @@ export {
   check,
   check2,
   CiscoLogo,
+  email,
   loading1,
   brainwaveSymbol,
   brainwaveWhiteSymbol,
   play,
+  github,
   gradient,
   smallSphere,
   grid,
   yourlogo,
   HomeDLogo,
   homeSmile,
+  linkedin,
   file02,
   searchMd,
   plusSquare,

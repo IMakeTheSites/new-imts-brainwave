@@ -7,7 +7,7 @@ import { Gradient } from "./design/Roadmap";
 
 const Bio = () => {
   return (
-    <Section className="overflow-hidden" id="roadmap">
+    <Section className="overflow-hidden" id="bio">
       <div className="container md:pb-10">
         <Heading
           title="A Little About Mark's Background"
@@ -37,7 +37,7 @@ const Bio = () => {
                   <div className="relative z-1">
                     <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                       <Tagline>{item.date}</Tagline>
-                      <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                      <div className="flex items-center px-4 py-6 bg-n-1 rounded text-n-8">
                         <img
                           src={item.status === "earned" ? check2 : loading1}
                           className="mr-2.5"
@@ -52,8 +52,8 @@ const Bio = () => {
                       <img
                         src={item.imageUrl}
                         className="w-full"
-                        width={630}
-                        height={420}
+                        width={610}
+                        height={400}
                         alt={item.title}
                       />
                     </div>

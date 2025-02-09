@@ -4,11 +4,12 @@ import { navigation } from "../constants";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
 import Button from "./Button";
 import { useState } from "react";
+
 const Header = () => {
-  const pathname = useLocation();
+  // const location = useLocation();
+  const { pathname } = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -60,12 +61,6 @@ const Header = () => {
           </div>
           <HamburgerMenu />
         </nav>
-        {/* <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New Account
-        </a> */}
         <Button className="hidden lg:flex" href="#blog">
           Blog
         </Button>

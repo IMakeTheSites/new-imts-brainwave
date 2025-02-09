@@ -7,12 +7,10 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
   facebook,
   figma,
   file02,
   homeSmile,
-  instagram,
   notification2,
   notification3,
   notification4,
@@ -26,7 +24,6 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
   twitter,
   AbkLogo,
   AllyLogo,
@@ -40,6 +37,9 @@ import {
   net,
   node,
   wordpress,
+  github,
+  email,
+  linkedin,
 } from "../assets";
 
 export const navigation = [
@@ -69,12 +69,6 @@ export const navigation = [
     url: "#services",
     onlyMobile: false,
   },
-  // {
-  //   id: "5",
-  //   title: "Sign in",
-  //   url: "#login",
-  //   onlyMobile: true,
-  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -323,32 +317,32 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "LinkedIn",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/in/markaiml/",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/imakethesites",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "Github",
+    iconUrl: github,
+    url: "https://github.com/IMakeTheSites",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    title: "Email",
+    iconUrl: email,
+    url: "mailto:imakethesites@gmail.com",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/imakethesites/",
   },
 ];
