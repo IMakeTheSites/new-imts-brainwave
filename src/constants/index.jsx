@@ -40,7 +40,10 @@ import {
   github,
   email,
   linkedin,
+  Proposal,
 } from "../assets";
+
+import Download from "../components/Download";
 
 export const navigation = [
   {
@@ -133,7 +136,16 @@ export const roadmap = [
     status: "progress",
     imageUrl: roadmap4,
   },
+  {
+    id: "4",
+    title: "Proposal",
+    text: "Mark developed a proposal for a study researching the effects of AI on web and software development.",
+    date: "April 2025",
+    status: "complete",
+    imageUrl: Proposal,
+  },
 ];
+<Download />;
 
 export const collabTextFront =
   "Mark has several years of experience using HTML, CSS, and JavaScript, as well as JavaScript frameworks and libraries (such as React) to develop pixel-perfect, functional, customer-pleasing applications.";

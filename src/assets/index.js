@@ -27,6 +27,7 @@ import CiscoLogo from "./CiscoLogo.png";
 import RolfsonLogo from "./RolfsonLogo.png";
 import WorkleteLogo from "./WorkleteLogo.png";
 import HomeDLogo from "./HomeDLogo.png";
+import Proposal from "./Proposal.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -170,6 +171,7 @@ export {
   discordBlack,
   facebook,
   instagram,
+  Proposal,
   telegram,
   twitter,
   wordpress,
