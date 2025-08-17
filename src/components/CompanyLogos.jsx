@@ -6,16 +6,24 @@ const CompanyLogos = ({ className }) => {
       <h5 className="tagline mb-6 text-center text-n-1/50">
         Helping people create beautiful content at
       </h5>
-      <ul className="flex">
-        {companyLogos.map((logo, index) => (
-          <li
-            className="flex items-center justify-center flex-1 h-[8.5rem]"
-            key={index}
-          >
-            <img src={logo} width={134} height={28} alt={logo} />
-          </li>
-        ))}
-      </ul>
+      <div className="flex justify-center">
+        <ul className="flex gap-8 items-center">
+          {companyLogos.map((logo, index) => (
+            <li
+              className="flex items-center justify-center"
+              key={index}
+            >
+              <div className="w-32 h-20 bg-n-8 rounded-lg p-4 flex items-center justify-center border border-n-6">
+                <img 
+                  src={logo} 
+                  alt="Company Logo" 
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
