@@ -112,14 +112,14 @@ export const roadmap = [
     imageUrl: roadmap1,
     colorful: true,
   },
-  {
-    id: "1",
-    title: "BS in Computer Science",
-    text: "Mark is currently working on a Bachelor's of Science in Computer Science to supplement his self-taught knowledge and experience.",
-    date: "May 2027",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
+  // {
+  //   id: "1",
+  //   title: "BS in Computer Science",
+  //   text: "Mark is currently working on a Bachelor's of Science in Computer Science to supplement his self-taught knowledge and experience.",
+  //   date: "May 2027",
+  //   status: "progress",
+  //   imageUrl: roadmap2,
+  // },
   {
     id: "2",
     title: "Previous Degrees",

@@ -13,52 +13,52 @@ const Bio = () => {
           title="A Little About Mark's Background"
           tag="More than you ever wanted to know"
         />
-        <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
+        <div className="relative grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-3 lg:gap-4 md:pb-[3rem]">
           {roadmap.map((item) => {
-            const status = item.status === "earned" ? "Earned" : "In progress";
+            const status = "Earned";
 
             return (
               <div
                 key={item.id}
-                className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
+                className={`p-0.25 rounded-[1.5rem] ${
                   item.colorful ? "bg-conic-gradient" : "bg-n-6"
                 }`}
               >
-                <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+                <div className="relative p-4 md:p-5 bg-n-8 rounded-[1.4375rem] overflow-hidden">
                   <div className="absolute top-0 left-0 max-w-full">
                     <img
                       src={grid}
                       alt="grid"
                       className="w-full"
-                      width={550}
-                      height={550}
+                      width={300}
+                      height={300}
                     />
                   </div>
                   <div className="relative z-1">
-                    <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                      <Tagline>{item.date}</Tagline>
-                      <div className="flex items-center px-4 py-6 bg-n-1 rounded text-n-8">
+                    <div className="flex items-center justify-between max-w-full mb-4">
+                      <Tagline className="text-xs">{item.date}</Tagline>
+                      <div className="flex items-center px-2 py-2 bg-n-1 rounded text-n-8">
                         <img
-                          src={item.status === "earned" ? check2 : loading1}
-                          className="mr-2.5"
-                          width={16}
-                          height={16}
+                          src={check2}
+                          className="mr-1.5"
+                          width={12}
+                          height={12}
                           alt={status}
                         />
-                        <div className="tagline">{status}</div>
+                        <div className="tagline text-xs">{status}</div>
                       </div>
                     </div>
-                    <div className="mb-10 -my-10 -mx-15">
+                    <div className="mb-4 -mx-4 -mt-4">
                       <img
                         src={item.imageUrl}
-                        className="w-full"
-                        width={610}
-                        height={400}
+                        className="w-full h-32 object-cover"
+                        width={300}
+                        height={128}
                         alt={item.title}
                       />
                     </div>
-                    <h4 className="h4 mb-4">{item.title}</h4>
-                    <p className="body-2 text-n-4">{item.text}</p>
+                    <h4 className="h5 mb-2 text-base">{item.title}</h4>
+                    <p className="body-2 text-sm text-n-4 leading-relaxed">{item.text}</p>
                   </div>
                 </div>
               </div>

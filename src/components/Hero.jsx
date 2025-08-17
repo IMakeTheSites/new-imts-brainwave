@@ -1,12 +1,12 @@
 import { curve, heroBackground } from "../assets";
-import Mark_Headshot from "../assets/Mark_Wlodawski_Headshot.jpeg";
+import Mark_Headshot from "../assets/Mark_Wlodawski_Headshot.png";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
+// import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import Generating from "./Generating";
+// import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
@@ -35,59 +35,82 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Mark is a dedicated and experienced developer with a wide range of
-            skills. Unleash the power of a knowledgeable developer on your
-            application today!
-          </p>
           <Button href="/services" white>
             Get Started
           </Button>
         </div>
-        <div className="relative mx-auto md:max-w-5xl xl:mb-24 max-w-[23rem]">
+        
+        {/* Personal Profile Style Layout */}
+        <div className="relative mx-auto md:max-w-5xl xl:mb-24 max-w-[95%]">
           <div className="relative z-1 rounded-2xl p-0.5 bg-conic-gradient">
-            <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <img
-                  src={Mark_Headshot}
-                  alt="robot"
-                  className="w-full scale-[1] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
-                  width={1024}
-                  height={490}
-                />
-
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
-                <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
-                      </li>
-                    ))}
-                  </ul>
-                </ScrollParallax>
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex "
-                    title="Working with global teams"
-                  />
-                </ScrollParallax>
+            <div className="relative bg-n-8 rounded-[1rem] p-10 border border-n-6">
+              {/* Friendly Header */}
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-n-1">Meet Mark Wlodawski</h3>
+                <p className="text-n-3 mt-2">Your friendly neighborhood developer</p>
+              </div>
+              
+              <div className="flex flex-col lg:flex-row items-start gap-10">
+                {/* Headshot with Casual Style */}
+                <div className="flex-shrink-0 -mt-4">
+                  <div className="relative">
+                    <div className="w-56 h-56 rounded-2xl overflow-hidden border-2 border-n-6 bg-gradient-to-br from-n-7 to-n-8 p-2 shadow-lg">
+                      <img
+                        src={Mark_Headshot}
+                        alt="Mark Wlodawski Headshot"
+                        className="w-full h-full object-cover object-center rounded-xl"
+                        width={224}
+                        height={224}
+                      />
+                    </div>
+                    <div className="absolute -top-2 -right-2 bg-blue-400 text-white text-sm font-medium px-3 py-1 rounded-full shadow-md">
+                      Available
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Casual Description */}
+                <div className="flex-grow text-left">
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-3">
+                      <span className="text-green-400 text-xl">✨</span>
+                      <span className="text-n-2 text-lg">Senior Fullstack Developer</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <span className="text-green-400 text-xl">🎯</span>
+                      <span className="text-n-2 text-lg">13+ years experience</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <span className="text-green-400 text-xl">🤖</span>
+                      <span className="text-n-2 text-lg">AI/ML specialist</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <span className="text-green-400 text-xl">🐕</span>
+                      <span className="text-n-2 text-lg">Dog walker & people person</span>
+                    </div>
+                    <div className="mt-6 p-4 bg-n-7 rounded-xl border border-n-6">
+                      <p className="text-base text-n-3">
+                        "Hey there! I love building awesome websites and apps. When I'm not coding, 
+                        you'll find me walking my dog or chatting with fellow developers. Let's build something amazing together!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
-              src={heroBackground}
-              alt="robot"
-              className="w-full"
-              width={1440}
-              height={1800}
-            />
-          </div>
-          <BackgroundCircles />
         </div>
+
+        <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <img
+            src={heroBackground}
+            alt="robot"
+            className="w-full"
+            width={1440}
+            height={1800}
+          />
+        </div>
+        <BackgroundCircles />
         <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
       <BottomLine />

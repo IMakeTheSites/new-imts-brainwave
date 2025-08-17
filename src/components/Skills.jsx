@@ -53,13 +53,14 @@ const Skills = () => {
                   <div
                     className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       index * 45
-                    }`}
+                    } cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-n-1/20 hover:bg-n-6`}
                   >
                     <img
                       className="m-auto"
                       width={app.width}
                       height={app.height}
                       src={app.icon}
+                      alt={app.title}
                     />
                   </div>
                 </li>
