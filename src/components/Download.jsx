@@ -2,13 +2,11 @@ import Button from "./Button";
 
 const Download = () => {
   return (
-    <>
-      <Button>
-        <a href="/AIProposal.docx" download>
-          Download the Above AI Study Proposal
-        </a>
+    <div className="container flex justify-center pb-10">
+      <Button href="/AIProposal.docx" download>
+        Download the Above AI Study Proposal
       </Button>
-    </>
+    </div>
   );
 };
 

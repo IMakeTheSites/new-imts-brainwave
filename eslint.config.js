@@ -36,4 +36,9 @@ export default [
       "react/prop-types": "off",
     },
   },
+  {
+    // Node code: Vercel serverless functions and build config
+    files: ["api/**/*.js", "vite.config.js"],
+    languageOptions: { globals: globals.node },
+  },
 ];

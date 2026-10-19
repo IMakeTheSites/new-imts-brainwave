@@ -4,11 +4,18 @@ import {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  benefitCard1,
+  benefitCard2,
+  benefitCard3,
+  benefitCard4,
+  benefitCard5,
+  benefitCard6,
+  csharp,
+  sql,
+  vb,
   chromecast,
   disc02,
-  discord,
   facebook,
-  figma,
   file02,
   homeSmile,
   notification2,
@@ -22,7 +29,6 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   twitter,
   AbkLogo,
@@ -43,33 +49,32 @@ import {
   Proposal,
 } from "../assets";
 
-import Download from "../components/Download";
 
 export const navigation = [
   {
     id: "0",
     title: "Skills",
-    url: "#skills",
+    url: "/#skills",
   },
   {
     id: "1",
     title: "Experience",
-    url: "#experience",
+    url: "/#experience",
   },
   {
     id: "2",
     title: "Bio",
-    url: "#bio",
+    url: "/#bio",
   },
   {
     id: "3",
     title: "Contact (Soon)",
-    url: "#contact",
+    url: "/#contact",
   },
   {
     id: "4",
     title: "Services",
-    url: "#services",
+    url: "/#services",
     onlyMobile: false,
   },
 ];
@@ -145,19 +150,18 @@ export const roadmap = [
     imageUrl: Proposal,
   },
 ];
-<Download />;
 
 export const collabTextFront =
   "Mark has several years of experience using HTML, CSS, and JavaScript, as well as JavaScript frameworks and libraries (such as React) to develop pixel-perfect, functional, customer-pleasing applications.";
 
 export const collabTextFull =
-  "Mark has been providing the backbone of applications by writing code to create and optimize API responses (with Node or C#) and managing databases for years. ";
+  "Mark has been providing the backbone of applications for years: building APIs and services with C#, .NET, Visual Basic, and Node, and designing, querying, and optimizing SQL Server databases, reports, and stored procedures.";
 
 export const collabTextProgramming =
-  "Take advantage of Mark&apos;s expertise in additional programming languages such as Java, C, and Python.";
+  "Take advantage of Mark's expertise in additional programming languages such as C#, Visual Basic, SQL, Java, C, and Python.";
 
 export const collabTextNeed =
-  "Your team needs a developer with a wide skillset, years of education, and adaptabililty.";
+  "Your team needs a developer with a wide skillset, years of education, and adaptability.";
 export const collabContent = [
   {
     id: "0",
@@ -179,10 +183,10 @@ export const collabContent = [
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
+    title: "C#",
+    icon: csharp,
+    width: 34,
+    height: 34,
   },
   {
     id: "1",
@@ -193,17 +197,17 @@ export const collabApps = [
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
+    title: "SQL Server",
+    icon: sql,
+    width: 34,
+    height: 34,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Visual Basic",
+    icon: vb,
     width: 34,
-    height: 35,
+    height: 34,
   },
   {
     id: "4",
@@ -275,10 +279,19 @@ export const services = [
 
 export const benefits = [
   {
+    id: "concordms",
+    title: "ConcordMS",
+    text: "Develop and maintain e-commerce ordering and fulfillment platforms with C#, .NET, Visual Basic, and SQL Server. Build SQL reports and stored procedures covering client orders, budgets, inventory, and UPS/FedEx shipping and tracking.",
+    backgroundUrl: benefitCard6,
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
     id: "0",
     title: "The Home Depot",
     text: "Worked to build the new Tiny Homes application. Created responsive and user-friendly interfaces using Next.js, Storybook, and Material UI. Wrote code to connect to APIs and display relevant data.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: benefitCard1,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -286,7 +299,7 @@ export const benefits = [
     id: "1",
     title: "Ally Financial",
     text: "Worked to add UI, UX, and accessibility features to the Bucket Savings, Debit Card, and Checking Account programs. Developed and tested React ensuring adherence to modern accessibility standards.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: benefitCard2,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -295,7 +308,7 @@ export const benefits = [
     id: "2",
     title: "Activision Blizzard King",
     text: "Built the Rewards Platform for Candy Crush players to create profiles, check points and other rewards, and customize appearances. Optimized appearance and performance with code splitting and Material UI.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: benefitCard3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
@@ -303,7 +316,7 @@ export const benefits = [
     id: "3",
     title: "Worklete",
     text: "Built, launched, and optimized a React-Native mobile application to enable worker training and injury reporting. Implemented several React-Native libraries to add features, including Google Maps and video streaming",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: benefitCard4,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
@@ -312,7 +325,7 @@ export const benefits = [
     id: "4",
     title: "Archetape",
     text: "Developed and launched React and React-Native applications for Real Estate SAAS product. Enabled document sharing, messaging, Google Maps integration.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: benefitCard5,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -320,7 +333,7 @@ export const benefits = [
     id: "5",
     title: "Rolfson Oil",
     text: "Built React and React-Native applications for Ticket sharing and driver tracking. Enabled real-time communication, mobile printing, functional dashboards, and more.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: benefitCard6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },

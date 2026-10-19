@@ -48,6 +48,9 @@ import net from "./collaboration/NetLogo.svg";
 import next from "./collaboration/next.png";
 import node from "./collaboration/nodejs.svg";
 import wordpress from "./collaboration/wordpress.png";
+import csharp from "./collaboration/csharp.svg";
+import sql from "./collaboration/sql.svg";
+import vb from "./collaboration/vb.svg";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -175,5 +178,8 @@ export {
   telegram,
   twitter,
   wordpress,
+  csharp,
+  sql,
+  vb,
   WorkleteLogo,
 };

@@ -4,7 +4,7 @@ import Section from "./Section";
 const Footer = () => {
   return (
     <Section crosses className="!px-0 !py-10">
-      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col sm:pr-24 max-sm:pb-16">
         <p className="caption text-n-4">
           © {new Date().getFullYear()}. I Make the Sites, All rights reserved.
         </p>

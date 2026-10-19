@@ -86,3 +86,20 @@
 .-rotate-360 {
     @apply rotate-[-360deg]
 }
+/* Blog post body (rendered from Markdown) */
+.blog-prose {
+    @apply text-n-2 text-base leading-8;
+}
+.blog-prose > * + * { @apply mt-5; }
+.blog-prose h2 { @apply h5 text-n-1 mt-12; }
+.blog-prose h3 { @apply h6 text-n-1 mt-10; }
+.blog-prose a { @apply text-color-1 underline underline-offset-4 hover:text-n-1; }
+.blog-prose strong { @apply text-n-1 font-semibold; }
+.blog-prose ul { @apply list-disc pl-6 space-y-2; }
+.blog-prose ol { @apply list-decimal pl-6 space-y-2; }
+.blog-prose blockquote { @apply border-l-2 border-color-1 pl-5 italic text-n-3; }
+.blog-prose code { @apply font-code text-sm bg-n-7 px-1.5 py-0.5 rounded; }
+.blog-prose pre { @apply bg-n-7 border border-n-6 rounded-xl p-5 overflow-x-auto; }
+.blog-prose pre code { @apply bg-transparent p-0; }
+.blog-prose img { @apply rounded-xl border border-n-6; }
+.blog-prose hr { @apply border-n-6 my-10; }
